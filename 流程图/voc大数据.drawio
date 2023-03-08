@@ -1,25 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2023-03-08T01:55:06.184Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="5egzrxEILqv0Wke6CSnS" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-08T02:19:39.787Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="WUJiVu8XtQYHM4V3NppT" version="21.0.2" type="github">
   <diagram name="第 1 页" id="0gMJPrDWbEy2gwF-UR-g">
-    <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="WTG5-pqi8x4NK2DUPrdu-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="WTG5-pqi8x4NK2DUPrdu-2">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="130" y="238.5" as="sourcePoint" />
-            <mxPoint x="370" y="240" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="WTG5-pqi8x4NK2DUPrdu-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WTG5-pqi8x4NK2DUPrdu-7" target="WTG5-pqi8x4NK2DUPrdu-13">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WTG5-pqi8x4NK2DUPrdu-5" value="&lt;pre style=&quot;font-family: 宋体; font-size: 10.5pt;&quot;&gt;base_trade_rate_terms_行业&lt;/pre&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WTG5-pqi8x4NK2DUPrdu-4">
-          <mxGeometry x="-0.175" y="-3" relative="1" as="geometry">
-            <mxPoint x="22" y="-3" as="offset" />
-          </mxGeometry>
+        <mxCell id="WTG5-pqi8x4NK2DUPrdu-7" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: 宋体; font-size: 10.5pt;&quot;&gt;base_trade_rate&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="210" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WTG5-pqi8x4NK2DUPrdu-2" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="50" y="200" width="60" height="80" as="geometry" />
+        <mxCell id="WTG5-pqi8x4NK2DUPrdu-6" value="&lt;pre style=&quot;border-color: var(--border-color); font-family: 宋体; font-size: 10.5pt;&quot;&gt;base_trade_rate_terms_行业&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="215" width="250" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="WTG5-pqi8x4NK2DUPrdu-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="210" width="120" height="60" as="geometry" />
+        <mxCell id="WTG5-pqi8x4NK2DUPrdu-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WTG5-pqi8x4NK2DUPrdu-13" target="WTG5-pqi8x4NK2DUPrdu-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WTG5-pqi8x4NK2DUPrdu-13" value="" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="200" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
