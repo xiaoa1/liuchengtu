@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-03T02:21:18.872Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="FhVPHy3c_A8MQq75MkyK" version="21.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-03T02:32:06.888Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="mcEtY0Q4HRPnMO360gwl" version="21.1.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2501" dy="1965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,16 +13,11 @@
           <mxGeometry x="1330" y="1790" width="650" height="110" as="geometry" />
         </mxCell>
         <mxCell id="xfaNWAlnwhSYscTLYdB0-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-390" y="100" width="980" height="909" as="geometry" />
+          <mxGeometry x="-390" y="410" width="1040" height="609" as="geometry" />
         </mxCell>
-        <mxCell id="fcaXWsSUOQ-A27VIgPfb-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.162;entryY=-0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xfaNWAlnwhSYscTLYdB0-0" target="fcaXWsSUOQ-A27VIgPfb-11">
+        <mxCell id="fcaXWsSUOQ-A27VIgPfb-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.162;entryY=-0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fcaXWsSUOQ-A27VIgPfb-23" target="fcaXWsSUOQ-A27VIgPfb-11">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-110" y="120" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="fcaXWsSUOQ-A27VIgPfb-15" value="调度任务抽取增量数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fcaXWsSUOQ-A27VIgPfb-14">
-          <mxGeometry x="-0.1705" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xfaNWAlnwhSYscTLYdB0-0" value="官网数据" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -197,7 +192,7 @@
         <mxCell id="fcaXWsSUOQ-A27VIgPfb-1" value="将数据按照时间分割，zip压缩，设置zip密码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="61.25" y="-40" width="375" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fcaXWsSUOQ-A27VIgPfb-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.687;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fcaXWsSUOQ-A27VIgPfb-4" target="fcaXWsSUOQ-A27VIgPfb-11">
+        <mxCell id="fcaXWsSUOQ-A27VIgPfb-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fcaXWsSUOQ-A27VIgPfb-4" target="fcaXWsSUOQ-A27VIgPfb-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fcaXWsSUOQ-A27VIgPfb-4" value="上传至sftp （双因素）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -206,8 +201,25 @@
         <mxCell id="fcaXWsSUOQ-A27VIgPfb-11" value="mysql数据库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-220" y="140" width="680" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="fcaXWsSUOQ-A27VIgPfb-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-220" y="230" width="110" height="40" as="geometry" />
+        <mxCell id="fcaXWsSUOQ-A27VIgPfb-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xfaNWAlnwhSYscTLYdB0-0" target="fcaXWsSUOQ-A27VIgPfb-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-110" y="-110" as="sourcePoint" />
+            <mxPoint x="-110" y="136" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcaXWsSUOQ-A27VIgPfb-25" value="调度任务抽取增量数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fcaXWsSUOQ-A27VIgPfb-24">
+          <mxGeometry x="-0.1705" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcaXWsSUOQ-A27VIgPfb-23" value="数据脱敏" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-165" y="40" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fcaXWsSUOQ-A27VIgPfb-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.688;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fcaXWsSUOQ-A27VIgPfb-26" target="fcaXWsSUOQ-A27VIgPfb-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fcaXWsSUOQ-A27VIgPfb-26" value="数据脱敏" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="193.75" y="80" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
